@@ -1,0 +1,15 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "cbb229c80f2046bdbd1d275df42a2767",
+  "database": "ts-crud",
+  "migrationsTableName": "migration",
+  "entities": ["src/model/*.ts"],
+  "migrations": ["src/database/migration/*.ts"],
+  "cli": {
+    "entitiesDir": "src/model",
+    "migrationsDir": "src/database/migration"
+  }
+}
